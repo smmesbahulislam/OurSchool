@@ -1,0 +1,26 @@
+body{
+    padding-top: 50px;
+}
+
+.navbar{
+    opacity: 0.7;
+    height: 50px;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+/*  background-image: linear-gradient(to right, #1e90ff, #32cd32);
+  color: #fff;*/
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
